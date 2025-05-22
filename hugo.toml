@@ -1,0 +1,20 @@
+baseURL = 'https://expertpicks.net'
+languageCode = 'en-us'
+title = 'Expert Picks - Product Reviews & Analysis'
+theme = 'PaperMod'
+
+[params]
+  env = "production"
+  title = "Expert Picks"
+  description = "Expert product reviews, analysis and recommendations"
+  author = "Expert Picks Team"
+  
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  
+  [params.homeInfoParams]
+    Title = "Welcome to Expert Picks"
+    Content = "Your trusted source for expert product reviews and buying guides"
