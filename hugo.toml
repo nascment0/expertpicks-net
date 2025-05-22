@@ -3,10 +3,19 @@ languageCode = 'en-us'
 title = 'Expert Picks - Product Reviews & Analysis'
 theme = 'PaperMod'
 
+[pagination]
+  pagerSize = 5
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
 [params]
   env = "production"
   title = "Expert Picks"
-  description = "Expert product reviews, analysis and recommendations"
+  description = "Expert product reviews, in-depth analysis and comprehensive buying guides"
   author = "Expert Picks Team"
   
   ShowReadingTime = true
@@ -16,5 +25,22 @@ theme = 'PaperMod'
   ShowCodeCopyButtons = true
   
   [params.homeInfoParams]
-    Title = "Welcome to Expert Picks"
-    Content = "Your trusted source for expert product reviews and buying guides"
+    Title = "🎯 Expert Product Reviews & Analysis"
+    Content = "Welcome to Expert Picks - Your trusted source for comprehensive product reviews and buying guides."
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "reviews"
+    name = "Reviews"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
